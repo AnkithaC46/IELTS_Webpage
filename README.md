@@ -34,19 +34,21 @@ You must have **Node.js** and **npm** (or yarn/pnpm) installed on your machine.
 ### 1. Clone the Repository
 
 ```bash
-git clone [YOUR_GITHUB_REPO_LINK]
-cd ielts-mastery-homepage
+git clone https://github.com/AnkithaC46/IELTS_Webpage.git
+cd IELTS
+```
 
 ### 2. Install Dependencies
 Install the required packages, including React and Tailwind CSS dependencies.
 
+
 ```Bash
 npm install
+npm install recharts lucide-react react-icons
+```
 
 ### 3. Run the Development Server
 Start the application in development mode. It will typically open on http://localhost:3000.
 
 ```Bash
 npm run dev
-# or
-# yarn start
